@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff13f219-0ca0-4cc7-b778-1c743027f55b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algs4/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algs4/QuickHigh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algs4/QuickLow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algs4/QuickMiddle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comp/quick/QuickHighAleatorioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comp/quick/QuickLowAleatorioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comp/quick/QuickMiddleAleatorioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comp/quick/QuickRandomAleatorioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Aleatorios-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Aleatorios-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Aleatorios-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Aleatorios-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Decrescentes-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Decrescentes-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Decrescentes-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Decrescentes-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Parcial-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Parcial-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Parcial-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Parcial-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Aleatorios-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Aleatorios-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Aleatorios-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Aleatorios-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Decrescentes-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Decrescentes-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Decrescentes-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Decrescentes-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Parcial-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Parcial-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Parcial-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Parcial-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algs4/Knuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algs4/Knuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algs4/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algs4/QuickRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algs4/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algs4/Shell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algs4/SortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algs4/SortUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comp/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algs4/Knuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/Knuth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algs4/Quick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algs4/Shell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/Shell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algs4/SortUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/SortUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/Executor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp/shell/KnuthAleatorioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/shell/KnuthAleatorioTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp/shell/KnuthDecrescenteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/shell/KnuthDecrescenteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp/shell/KnuthParcialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/shell/KnuthParcialTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp/shell/ShellAleatorioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/shell/ShellAleatorioTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp/shell/ShellDecrescenteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/shell/ShellDecrescenteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comp/shell/ShellParcialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/shell/ShellParcialTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ul2Mk0ntKQUVvfl0u01d2EIAII" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="comp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algs4" />
+      <recent name="comp.quick" />
+      <recent name="comp.shell" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/shell" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QuickHighAleatorioTest">
+    <configuration name="QuickHighAleatorioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickHighAleatorioTest" />
+      <module name="ppgcomp-analise-trab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp.quick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickLowAleatorioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickLowAleatorioTest" />
+      <module name="ppgcomp-analise-trab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp.quick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickMiddleAleatorioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickMiddleAleatorioTest" />
+      <module name="ppgcomp-analise-trab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp.quick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickRandomAleatorioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickRandomAleatorioTest" />
+      <module name="ppgcomp-analise-trab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp.quick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShellParcialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.shell.ShellParcialTest" />
+      <module name="ppgcomp-analise-trab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp.shell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="ppgcomp-analise-trab" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="ppgcomp-analise-trab" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuickHighAleatorioTest" />
+        <item itemvalue="Application.QuickRandomAleatorioTest" />
+        <item itemvalue="Application.QuickMiddleAleatorioTest" />
+        <item itemvalue="Application.QuickLowAleatorioTest" />
+        <item itemvalue="Application.ShellParcialTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff13f219-0ca0-4cc7-b778-1c743027f55b" name="Default Changelist" comment="" />
+      <created>1575916814881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575916814881</updated>
+      <workItem from="1575916817980" duration="4403000" />
+      <workItem from="1575930117322" duration="6640000" />
+      <workItem from="1575978196883" duration="223000" />
+      <workItem from="1575997864350" duration="3621000" />
+      <workItem from="1576001526508" duration="6282000" />
+    </task>
+    <task id="LOCAL-00001" summary="implementada analise do Shell Sort">
+      <created>1576001910563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576001910563</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implementada analise do Shell Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementada analise do Shell Sort" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576001553541">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1576001553541" />
+    <state x="491" y="118" width="374" height="563" key="#com.intellij.ide.util.MemberChooser" timestamp="1575998055395">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="491" y="118" width="374" height="563" key="#com.intellij.ide.util.MemberChooser/0.32.1366.736@0.32.1366.736" timestamp="1575998055395" />
+    <state x="415" y="185" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575919119674">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="415" y="185" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.32.1366.736@0.32.1366.736" timestamp="1575919119674" />
+    <state x="256" y="327" width="854" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576002676834">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="256" y="327" width="854" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.32.1366.736@0.32.1366.736" timestamp="1576002676834" />
+    <state x="462" y="261" width="441" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575999552824">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="462" y="261" width="441" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.32.1366.736@0.32.1366.736" timestamp="1575999552824" />
+    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2" timestamp="1576001903090">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1576001903090" />
+    <state width="410" height="438" key="DebuggerActiveHint" timestamp="1576006616262">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="410" height="438" key="DebuggerActiveHint/0.32.1366.736@0.32.1366.736" timestamp="1576006616262" />
+    <state width="1324" height="491" key="GridCell.Tab.0.bottom" timestamp="1576007837420">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1324" height="491" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1576007837420" />
+    <state width="1324" height="491" key="GridCell.Tab.0.center" timestamp="1576007837416">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1324" height="491" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1576007837416" />
+    <state width="1324" height="491" key="GridCell.Tab.0.left" timestamp="1576007837412">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1324" height="491" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1576007837412" />
+    <state width="1324" height="491" key="GridCell.Tab.0.right" timestamp="1576007837418">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1324" height="491" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1576007837418" />
+    <state width="1324" height="218" key="GridCell.Tab.1.bottom" timestamp="1576007184096">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1324" height="218" key="GridCell.Tab.1.bottom/0.32.1366.736@0.32.1366.736" timestamp="1576007184096" />
+    <state width="1324" height="218" key="GridCell.Tab.1.center" timestamp="1576007184095">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1324" height="218" key="GridCell.Tab.1.center/0.32.1366.736@0.32.1366.736" timestamp="1576007184095" />
+    <state width="1324" height="218" key="GridCell.Tab.1.left" timestamp="1576007184095">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1324" height="218" key="GridCell.Tab.1.left/0.32.1366.736@0.32.1366.736" timestamp="1576007184095" />
+    <state width="1324" height="218" key="GridCell.Tab.1.right" timestamp="1576007184095">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1324" height="218" key="GridCell.Tab.1.right/0.32.1366.736@0.32.1366.736" timestamp="1576007184095" />
+    <state x="166" y="32" width="1024" height="736" key="SettingsEditor" timestamp="1575919072360">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="166" y="32" width="1024" height="736" key="SettingsEditor/0.32.1366.736@0.32.1366.736" timestamp="1575919072360" />
+    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1576001920918">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2/0.32.1366.736@0.32.1366.736" timestamp="1576001920918" />
+    <state x="416" y="156" width="524" height="490" key="extract.method.dialog" timestamp="1575999823533">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="416" y="156" width="524" height="490" key="extract.method.dialog/0.32.1366.736@0.32.1366.736" timestamp="1575999823533" />
+    <state x="347" y="193" width="661" height="413" key="git4idea.merge.GitPullDialog" timestamp="1576001819770">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="347" y="193" width="661" height="413" key="git4idea.merge.GitPullDialog/0.32.1366.736@0.32.1366.736" timestamp="1576001819770" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575920085288">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.32.1366.736@0.32.1366.736" timestamp="1575920085288" />
+  </component>
+</project>

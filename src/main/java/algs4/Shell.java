@@ -51,26 +51,21 @@ public class Shell {
      * Rearranges the array in ascending order, using the natural order.
      * @param a the array to be sorted
      */
-    public static long sort(Comparable[] a) {
+    public static void sort(Comparable[] a, Counter counter) {
         int n = a.length;
 
         // h/2 increment sequence
         int h = n / 2;
 
-        long comparisons = 0;
-
         while (h >= 1) {
             // h-sort the array
             for (int i = h; i < n; i++) {
-                for (int j = i; j >= h && SortUtils.less(a[j], a[j-h]); j -= h) {
-                    comparisons++;
+                for (int j = i; j >= h && SortUtils.less(a[j], a[j-h], counter); j -= h) {
                     SortUtils.exch(a, j, j-h);
                 }
             }
             h /= 2;
         }
-
-        return comparisons;
     }
 
 }

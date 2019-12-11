@@ -26,6 +26,7 @@ public class Executor {
 
         for (Path file : files) {
             Integer[] data = loader.loadFile(file);
+            System.out.println("# " + data.length);
             Counter counter = new Counter();
             long start = System.nanoTime();
             method.accept(data, counter);

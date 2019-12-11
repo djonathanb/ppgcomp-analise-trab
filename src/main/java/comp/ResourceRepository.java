@@ -5,6 +5,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class ResourceRepository {
@@ -24,4 +25,14 @@ public class ResourceRepository {
         return Files.readAllLines(file).stream().map(Integer::valueOf).toArray(Integer[]::new);
     }
 
+    public Integer[] loadTreeFile(Path file) throws IOException {
+        String[] fileContent = Files.readString(file).trim().split(" ");
+        return Arrays.stream(fileContent)
+                .map(Integer::valueOf)
+                .toArray(Integer[]::new);
+    }
+
+    public Path getPath(Path fileName) throws IOException {
+        return listFiles().filter(path -> path.getFileName().equals(fileName)).findFirst().get();
+    }
 }

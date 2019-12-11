@@ -26,6 +26,30 @@ public class ReportUtils {
         saveAnalisis(filename + "-comparisons", labels, comparisons);
     }
 
+    public static void saveTreeResults(String label, String filename, Map<Integer, TreeExecutionStats> measures) throws IOException {
+        StringBuilder labels = new StringBuilder();
+        labels.append(";");
+        measures.entrySet().forEach(measure -> {
+            labels.append(measure.getKey()).append(";");
+        });
+
+        StringBuilder buildTimes = new StringBuilder(label + "-build;");
+        StringBuilder buildComparisons = new StringBuilder(label + "-build;");
+        StringBuilder queryTimes = new StringBuilder(label + "-query;");
+        StringBuilder queryComparisons = new StringBuilder(label + "-query;");
+        measures.entrySet().forEach(measure -> {
+            buildTimes.append(measure.getValue().getBuildTime()).append(";");
+            buildComparisons.append(measure.getValue().getBuildComparisons()).append(";");
+            queryTimes.append(measure.getValue().getQueryTime()).append(";");
+            queryComparisons.append(measure.getValue().getQueryComparisons()).append(";");
+        });
+
+        saveAnalisis(filename + "-buildTimes", labels, buildTimes);
+        saveAnalisis(filename + "-buildComparisons", labels, buildComparisons);
+        saveAnalisis(filename + "-queryTimes", labels, queryTimes);
+        saveAnalisis(filename + "-queryComparisons", labels, queryComparisons);
+    }
+
     private static void saveAnalisis(String filename, StringBuilder labels, StringBuilder measures) throws IOException {
         File file = new File("report/" + filename + ".csv");
         if (!file.getParentFile().exists()) {

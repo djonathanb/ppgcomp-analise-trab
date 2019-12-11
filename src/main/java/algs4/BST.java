@@ -67,6 +67,22 @@ import java.util.NoSuchElementException;
 public class BST<Key extends Comparable<Key>, Value> {
     private Node root;             // root of BST
 
+    public static BST<Integer, Integer> create(Integer[] data, Counter counter) {
+        BST<Integer, Integer> tree = new BST<>();
+
+        for (Integer n : data) {
+            tree.put(n, n, counter);
+        }
+
+        return tree;
+    }
+
+    public static void query(BST<Integer, Integer> tree, Integer[] data, Counter counter) {
+        for (Integer n : data) {
+            tree.get(n, counter);
+        }
+    }
+
     private class Node {
         private Key key;           // sorted by key
         private Value val;         // associated data
@@ -116,9 +132,9 @@ public class BST<Key extends Comparable<Key>, Value> {
      *         {@code false} otherwise
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public boolean contains(Key key) {
+    public boolean contains(Key key, Counter counter) {
         if (key == null) throw new IllegalArgumentException("argument to contains() is null");
-        return get(key) != null;
+        return get(key, counter) != null;
     }
 
     /**
@@ -129,16 +145,17 @@ public class BST<Key extends Comparable<Key>, Value> {
      *         and {@code null} if the key is not in the symbol table
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public Value get(Key key) {
-        return get(root, key);
+    public Value get(Key key, Counter counter) {
+        return get(root, key, counter);
     }
 
-    private Value get(Node x, Key key) {
+    private Value get(Node x, Key key, Counter counter) {
         if (key == null) throw new IllegalArgumentException("calls get() with a null key");
         if (x == null) return null;
         int cmp = key.compareTo(x.key);
-        if      (cmp < 0) return get(x.left, key);
-        else if (cmp > 0) return get(x.right, key);
+        counter.add();
+        if      (cmp < 0) return get(x.left, key, counter);
+        else if (cmp > 0) return get(x.right, key, counter);
         else              return x.val;
     }
 
@@ -152,20 +169,21 @@ public class BST<Key extends Comparable<Key>, Value> {
      * @param  val the value
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void put(Key key, Value val) {
+    public void put(Key key, Value val, Counter counter) {
         if (key == null) throw new IllegalArgumentException("calls put() with a null key");
         if (val == null) {
             delete(key);
             return;
         }
-        root = put(root, key, val);
+        root = put(root, key, val, counter);
     }
 
-    private Node put(Node x, Key key, Value val) {
+    private Node put(Node x, Key key, Value val, Counter counter) {
         if (x == null) return new Node(key, val, 1);
         int cmp = key.compareTo(x.key);
-        if      (cmp < 0) x.left  = put(x.left,  key, val);
-        else if (cmp > 0) x.right = put(x.right, key, val);
+        counter.add();
+        if      (cmp < 0) x.left  = put(x.left,  key, val, counter);
+        else if (cmp > 0) x.right = put(x.right, key, val, counter);
         else              x.val   = val;
         x.size = 1 + size(x.left) + size(x.right);
         return x;
@@ -433,12 +451,12 @@ public class BST<Key extends Comparable<Key>, Value> {
      * @throws IllegalArgumentException if either {@code lo} or {@code hi}
      *         is {@code null}
      */
-    public int size(Key lo, Key hi) {
+    public int size(Key lo, Key hi, Counter counter) {
         if (lo == null) throw new IllegalArgumentException("first argument to size() is null");
         if (hi == null) throw new IllegalArgumentException("second argument to size() is null");
 
         if (lo.compareTo(hi) > 0) return 0;
-        if (contains(hi)) return rank(hi) - rank(lo) + 1;
+        if (contains(hi, counter)) return rank(hi) - rank(lo) + 1;
         else              return rank(hi) - rank(lo);
     }
 

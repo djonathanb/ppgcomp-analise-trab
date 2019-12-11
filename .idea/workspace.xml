@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff13f219-0ca0-4cc7-b778-1c743027f55b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/comp/TreeExecutionStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comp/tree/RBBSTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algs4/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algs4/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comp/ReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp/ReportUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comp/ResourceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comp/ResourceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algs4/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algs4/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/BST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algs4/RedBlackBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algs4/RedBlackBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algs4/RedBlackBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/RedBlackBST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algs4/RedBlackBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/RedBlackBST.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/comp/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/Executor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/comp/ReportUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/ReportUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/comp/ResourceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/ResourceRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +59,18 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="comp.tree" />
       <recent name="comp" />
       <recent name="comp.shell" />
       <recent name="comp.quick" />
       <recent name="algs4" />
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/shell" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BSTreeTest">
+  <component name="RunManager" selected="Application.RBBSTreeTest">
     <configuration name="BSTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comp.tree.BSTreeTest" />
       <module name="ppgcomp-analise-trab" />
@@ -117,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickMiddleParcialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickMiddleParcialTest" />
-      <module name="ppgcomp-analise-trab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comp.quick.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickRandomParcialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comp.quick.QuickRandomParcialTest" />
       <module name="ppgcomp-analise-trab" />
@@ -143,20 +126,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RBBSTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.tree.RBBSTreeTest" />
+      <module name="ppgcomp-analise-trab" />
+      <option name="VM_PARAMETERS" value="-Xss16m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comp.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.QuickHighParcialTest" />
       <item itemvalue="Application.QuickLowParcialTest" />
-      <item itemvalue="Application.QuickMiddleParcialTest" />
       <item itemvalue="Application.QuickRandomParcialTest" />
       <item itemvalue="Application.BSTreeTest" />
+      <item itemvalue="Application.RBBSTreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RBBSTreeTest" />
         <item itemvalue="Application.BSTreeTest" />
         <item itemvalue="Application.QuickLowParcialTest" />
         <item itemvalue="Application.QuickHighParcialTest" />
         <item itemvalue="Application.QuickRandomParcialTest" />
-        <item itemvalue="Application.QuickMiddleParcialTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +185,7 @@
       <workItem from="1575997864350" duration="3621000" />
       <workItem from="1576001526508" duration="6564000" />
       <workItem from="1576025677307" duration="6057000" />
-      <workItem from="1576085546787" duration="12125000" />
+      <workItem from="1576085546787" duration="14739000" />
     </task>
     <task id="LOCAL-00001" summary="implementada analise do Shell Sort">
       <created>1576001910563</created>
@@ -211,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576030459400</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implementada analise da BST">
+      <created>1576100240692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576100240692</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,13 +225,14 @@
     <MESSAGE value="implementada analise do Shell Sort" />
     <MESSAGE value="implementado analise do Quick Sort na versao aleatoria" />
     <MESSAGE value="finalizada implementacao da analise do Quick Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalizada implementacao da analise do Quick Sort" />
+    <MESSAGE value="implementada analise da BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementada analise da BST" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576088890186">
+    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576100740198">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1576088890186" />
+    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1576100740198" />
     <state x="466" y="107" width="424" height="585" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1576027885928">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -248,30 +253,30 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="462" y="261" width="441" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.32.1366.736@0.32.1366.736" timestamp="1575999552824" />
-    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2" timestamp="1576030459220">
+    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2" timestamp="1576100232906">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1576030459220" />
+    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1576100232906" />
     <state width="450" height="438" key="DebuggerActiveHint" timestamp="1576094496116">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="450" height="438" key="DebuggerActiveHint/0.32.1366.736@0.32.1366.736" timestamp="1576094496116" />
-    <state width="1324" height="557" key="GridCell.Tab.0.bottom" timestamp="1576099932300">
+    <state width="1324" height="491" key="GridCell.Tab.0.bottom" timestamp="1576102127119">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="557" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1576099932300" />
-    <state width="1324" height="557" key="GridCell.Tab.0.center" timestamp="1576099932296">
+    <state width="1324" height="491" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1576102127119" />
+    <state width="1324" height="491" key="GridCell.Tab.0.center" timestamp="1576102127117">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="557" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1576099932296" />
-    <state width="1324" height="557" key="GridCell.Tab.0.left" timestamp="1576099932293">
+    <state width="1324" height="491" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1576102127117" />
+    <state width="1324" height="491" key="GridCell.Tab.0.left" timestamp="1576102127116">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="557" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1576099932293" />
-    <state width="1324" height="557" key="GridCell.Tab.0.right" timestamp="1576099932298">
+    <state width="1324" height="491" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1576102127116" />
+    <state width="1324" height="491" key="GridCell.Tab.0.right" timestamp="1576102127118">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="557" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1576099932298" />
+    <state width="1324" height="491" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1576102127118" />
     <state width="1324" height="557" key="GridCell.Tab.1.bottom" timestamp="1576099932305">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -296,10 +301,10 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="412" y="133" width="540" height="524" key="StructurePopup/0.32.1366.736@0.32.1366.736" timestamp="1576031932141" />
-    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1576030462338">
+    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1576100243554">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2/0.32.1366.736@0.32.1366.736" timestamp="1576030462338" />
+    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2/0.32.1366.736@0.32.1366.736" timestamp="1576100243554" />
     <state x="416" y="156" width="524" height="490" key="extract.method.dialog" timestamp="1575999823533">
       <screen x="0" y="32" width="1366" height="736" />
     </state>

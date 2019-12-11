@@ -79,6 +79,23 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
 
     private Node root;     // root of the BST
 
+    public static RedBlackBST<Integer, Integer> create(Integer[] data, Counter counter) {
+        RedBlackBST<Integer, Integer> tree = new RedBlackBST<>();
+
+        for (Integer n : data) {
+            tree.put(n, n, counter);
+        }
+
+        return tree;
+    }
+
+    public static void query(RedBlackBST<Integer, Integer> tree, Integer[] data, Counter counter) {
+        for (Integer n : data) {
+            tree.get(n, counter);
+        }
+    }
+
+
     // BST helper node data type
     private class Node {
         private Key key;           // key
@@ -145,15 +162,16 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
      *     and {@code null} if the key is not in the symbol table
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public Value get(Key key) {
+    public Value get(Key key, Counter counter) {
         if (key == null) throw new IllegalArgumentException("argument to get() is null");
-        return get(root, key);
+        return get(root, key, counter);
     }
 
     // value associated with the given key in subtree rooted at x; null if no such key
-    private Value get(Node x, Key key) {
+    private Value get(Node x, Key key, Counter counter) {
         while (x != null) {
             int cmp = key.compareTo(x.key);
+            counter.add();
             if      (cmp < 0) x = x.left;
             else if (cmp > 0) x = x.right;
             else              return x.val;
@@ -168,8 +186,8 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
      *     {@code false} otherwise
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public boolean contains(Key key) {
-        return get(key) != null;
+    public boolean contains(Key key, Counter counter) {
+        return get(key, counter) != null;
     }
 
     /***************************************************************************
@@ -186,24 +204,25 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
      * @param val the value
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void put(Key key, Value val) {
+    public void put(Key key, Value val, Counter counter) {
         if (key == null) throw new IllegalArgumentException("first argument to put() is null");
         if (val == null) {
-            delete(key);
+            delete(key, counter);
             return;
         }
 
-        root = put(root, key, val);
+        root = put(root, key, val, counter);
         root.color = BLACK;
     }
 
     // insert the key-value pair in the subtree rooted at h
-    private Node put(Node h, Key key, Value val) {
+    private Node put(Node h, Key key, Value val, Counter counter) {
         if (h == null) return new Node(key, val, RED, 1);
 
         int cmp = key.compareTo(h.key);
-        if      (cmp < 0) h.left  = put(h.left,  key, val);
-        else if (cmp > 0) h.right = put(h.right, key, val);
+        counter.add();
+        if      (cmp < 0) h.left  = put(h.left,  key, val, counter);
+        else if (cmp > 0) h.right = put(h.right, key, val, counter);
         else              h.val   = val;
 
         // fix-up any right-leaning links
@@ -285,9 +304,9 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void delete(Key key) {
+    public void delete(Key key, Counter counter) {
         if (key == null) throw new IllegalArgumentException("argument to delete() is null");
-        if (!contains(key)) return;
+        if (!contains(key, counter)) return;
 
         // if both children of root are black, set root to red
         if (!isRed(root.left) && !isRed(root.right))
@@ -604,12 +623,12 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
      * @throws IllegalArgumentException if either {@code lo} or {@code hi}
      *    is {@code null}
      */
-    public int size(Key lo, Key hi) {
+    public int size(Key lo, Key hi, Counter counter) {
         if (lo == null) throw new IllegalArgumentException("first argument to size() is null");
         if (hi == null) throw new IllegalArgumentException("second argument to size() is null");
 
         if (lo.compareTo(hi) > 0) return 0;
-        if (contains(hi)) return rank(hi) - rank(lo) + 1;
+        if (contains(hi, counter)) return rank(hi) - rank(lo) + 1;
         else              return rank(hi) - rank(lo);
     }
 

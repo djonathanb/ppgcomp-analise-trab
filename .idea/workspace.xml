@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff13f219-0ca0-4cc7-b778-1c743027f55b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/comp/tree/RBBSTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algs4/RedBlackBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algs4/RedBlackBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algs4/RedBlackBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/RedBlackBST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algs4/RedBlackBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algs4/RedBlackBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/comp/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/comp/Executor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/BST-buildTimes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/BST-buildTimes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/BST-queryTimes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/BST-queryTimes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Aleatorios-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Aleatorios-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Decrescentes-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Decrescentes-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Knuth-Parcial-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Knuth-Parcial-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-High-Aleatorios-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-High-Aleatorios-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-High-Decrescente-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-High-Decrescente-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-High-Parcial-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-High-Parcial-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Low-Aleatorios-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Low-Aleatorios-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Low-Decrescente-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Low-Decrescente-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Low-Parcial-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Low-Parcial-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Middle-Aleatorios-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Middle-Aleatorios-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Middle-Decrescente-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Middle-Decrescente-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Middle-Parcial-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Middle-Parcial-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Random-Aleatorios-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Random-Aleatorios-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Random-Aleatorios-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Random-Aleatorios-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Random-Decrescente-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Random-Decrescente-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Random-Decrescente-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Random-Decrescente-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Random-Parcial-comparisons.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Random-Parcial-comparisons.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Quick-Random-Parcial-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Quick-Random-Parcial-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/RedBlackBST-buildComparisons.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/RedBlackBST-buildTimes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/RedBlackBST-queryComparisons.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/RedBlackBST-queryTimes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Aleatorios-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Aleatorios-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Decrescentes-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Decrescentes-times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Shell-Parcial-times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/Shell-Parcial-times.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,10 +107,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickHighParcialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickHighParcialTest" />
+    <configuration name="QuickRandomAleatorioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickRandomAleatorioTest" />
       <module name="ppgcomp-analise-trab" />
-      <option name="VM_PARAMETERS" value="-Xss4m" />
+      <option name="VM_PARAMETERS" value="-Xss16m" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="comp.quick.*" />
@@ -99,10 +121,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickLowParcialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickLowParcialTest" />
+    <configuration name="QuickRandomDecrescenteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comp.quick.QuickRandomDecrescenteTest" />
       <module name="ppgcomp-analise-trab" />
-      <option name="VM_PARAMETERS" value="-Xss4m" />
+      <option name="VM_PARAMETERS" value="-Xss16m" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="comp.quick.*" />
@@ -116,6 +138,7 @@
     <configuration name="QuickRandomParcialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comp.quick.QuickRandomParcialTest" />
       <module name="ppgcomp-analise-trab" />
+      <option name="VM_PARAMETERS" value="-Xss16m" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="comp.quick.*" />
@@ -141,8 +164,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QuickHighParcialTest" />
-      <item itemvalue="Application.QuickLowParcialTest" />
+      <item itemvalue="Application.QuickRandomAleatorioTest" />
+      <item itemvalue="Application.QuickRandomDecrescenteTest" />
       <item itemvalue="Application.QuickRandomParcialTest" />
       <item itemvalue="Application.BSTreeTest" />
       <item itemvalue="Application.RBBSTreeTest" />
@@ -151,9 +174,9 @@
       <list>
         <item itemvalue="Application.RBBSTreeTest" />
         <item itemvalue="Application.BSTreeTest" />
-        <item itemvalue="Application.QuickLowParcialTest" />
-        <item itemvalue="Application.QuickHighParcialTest" />
         <item itemvalue="Application.QuickRandomParcialTest" />
+        <item itemvalue="Application.QuickRandomDecrescenteTest" />
+        <item itemvalue="Application.QuickRandomAleatorioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +208,8 @@
       <workItem from="1575997864350" duration="3621000" />
       <workItem from="1576001526508" duration="6564000" />
       <workItem from="1576025677307" duration="6057000" />
-      <workItem from="1576085546787" duration="14739000" />
+      <workItem from="1576085546787" duration="14928000" />
+      <workItem from="1576102868052" duration="3627000" />
     </task>
     <task id="LOCAL-00001" summary="implementada analise do Shell Sort">
       <created>1576001910563</created>
@@ -215,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576100240692</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implementada analise da RedBlackBST">
+      <created>1576102587650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576102587650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,13 +257,14 @@
     <MESSAGE value="implementado analise do Quick Sort na versao aleatoria" />
     <MESSAGE value="finalizada implementacao da analise do Quick Sort" />
     <MESSAGE value="implementada analise da BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementada analise da BST" />
+    <MESSAGE value="implementada analise da RedBlackBST" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementada analise da RedBlackBST" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576100740198">
+    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576109761229">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1576100740198" />
+    <state x="141" y="57" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1576109761229" />
     <state x="466" y="107" width="424" height="585" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1576027885928">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -253,46 +285,46 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="462" y="261" width="441" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.32.1366.736@0.32.1366.736" timestamp="1575999552824" />
-    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2" timestamp="1576100232906">
+    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2" timestamp="1576102587506">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1576100232906" />
+    <state x="255" y="32" width="846" height="736" key="CommitChangelistDialog2/0.32.1366.736@0.32.1366.736" timestamp="1576102587506" />
     <state width="450" height="438" key="DebuggerActiveHint" timestamp="1576094496116">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state width="450" height="438" key="DebuggerActiveHint/0.32.1366.736@0.32.1366.736" timestamp="1576094496116" />
-    <state width="1324" height="491" key="GridCell.Tab.0.bottom" timestamp="1576102127119">
+    <state width="1324" height="491" key="GridCell.Tab.0.bottom" timestamp="1576109783904">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="491" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1576102127119" />
-    <state width="1324" height="491" key="GridCell.Tab.0.center" timestamp="1576102127117">
+    <state width="1324" height="491" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1576109783904" />
+    <state width="1324" height="491" key="GridCell.Tab.0.center" timestamp="1576109783904">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="491" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1576102127117" />
-    <state width="1324" height="491" key="GridCell.Tab.0.left" timestamp="1576102127116">
+    <state width="1324" height="491" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1576109783904" />
+    <state width="1324" height="491" key="GridCell.Tab.0.left" timestamp="1576109783903">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="491" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1576102127116" />
-    <state width="1324" height="491" key="GridCell.Tab.0.right" timestamp="1576102127118">
+    <state width="1324" height="491" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1576109783903" />
+    <state width="1324" height="491" key="GridCell.Tab.0.right" timestamp="1576109783904">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="491" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1576102127118" />
-    <state width="1324" height="557" key="GridCell.Tab.1.bottom" timestamp="1576099932305">
+    <state width="1324" height="491" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1576109783904" />
+    <state width="1324" height="557" key="GridCell.Tab.1.bottom" timestamp="1576102742051">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="557" key="GridCell.Tab.1.bottom/0.32.1366.736@0.32.1366.736" timestamp="1576099932305" />
-    <state width="1324" height="557" key="GridCell.Tab.1.center" timestamp="1576099932302">
+    <state width="1324" height="557" key="GridCell.Tab.1.bottom/0.32.1366.736@0.32.1366.736" timestamp="1576102742051" />
+    <state width="1324" height="557" key="GridCell.Tab.1.center" timestamp="1576102742050">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="557" key="GridCell.Tab.1.center/0.32.1366.736@0.32.1366.736" timestamp="1576099932302" />
-    <state width="1324" height="557" key="GridCell.Tab.1.left" timestamp="1576099932301">
+    <state width="1324" height="557" key="GridCell.Tab.1.center/0.32.1366.736@0.32.1366.736" timestamp="1576102742050" />
+    <state width="1324" height="557" key="GridCell.Tab.1.left" timestamp="1576102742050">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="557" key="GridCell.Tab.1.left/0.32.1366.736@0.32.1366.736" timestamp="1576099932301" />
-    <state width="1324" height="557" key="GridCell.Tab.1.right" timestamp="1576099932304">
+    <state width="1324" height="557" key="GridCell.Tab.1.left/0.32.1366.736@0.32.1366.736" timestamp="1576102742050" />
+    <state width="1324" height="557" key="GridCell.Tab.1.right" timestamp="1576102742051">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1324" height="557" key="GridCell.Tab.1.right/0.32.1366.736@0.32.1366.736" timestamp="1576099932304" />
+    <state width="1324" height="557" key="GridCell.Tab.1.right/0.32.1366.736@0.32.1366.736" timestamp="1576102742051" />
     <state x="166" y="32" width="1024" height="736" key="SettingsEditor" timestamp="1575919072360">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
@@ -301,10 +333,10 @@
       <screen x="0" y="32" width="1366" height="736" />
     </state>
     <state x="412" y="133" width="540" height="524" key="StructurePopup/0.32.1366.736@0.32.1366.736" timestamp="1576031932141" />
-    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1576100243554">
+    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1576102614408">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2/0.32.1366.736@0.32.1366.736" timestamp="1576100243554" />
+    <state x="278" y="135" width="800" height="529" key="Vcs.Push.Dialog.v2/0.32.1366.736@0.32.1366.736" timestamp="1576102614408" />
     <state x="416" y="156" width="524" height="490" key="extract.method.dialog" timestamp="1575999823533">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
